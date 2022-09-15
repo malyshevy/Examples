@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Введите имя пользователя");
 string nameA;
 nameA = Console.ReadLine();
-if (nameA.ToLower() =="маша")
+if (nameA.ToLower() =="маша") \\ перевод всех букв в нижний регистр
     {
         Console.WriteLine("URA!!! This MASHA!!!");
     }

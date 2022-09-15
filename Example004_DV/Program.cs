@@ -1,4 +1,4 @@
 ﻿double numA , numB;
-numA=5;
+numA=new Random().Next(1,500);
 numB=7;
 Console.WriteLine(numA/numB);
